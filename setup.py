@@ -38,7 +38,7 @@ setup(
         'plone.memoize',
         'plone.i18n',
         'Products.CMFPlacefulWorkflow',
-        'python-dateutil<2.0dev',
+        'python-dateutil',
         'AccessControl>=3.0',
     ],
     extras_require=dict(

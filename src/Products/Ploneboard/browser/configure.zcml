@@ -86,7 +86,7 @@
      allowed_attributes="results num_conversations toPloneboardTime"
      />
 
-  <adapter factory=".controlpanel.ControlPanelAdapter" />
+
 
   <browser:page
      for="Products.CMFPlone.interfaces.IPloneSiteRoot"
@@ -103,7 +103,7 @@
    <browser:resource
      name="pb_attachment.js"
      file="pb_attachment.js"
-   />  
+   />
 
    <browser:viewlet
         name="Products.Ploneboard.addconversation"
@@ -131,4 +131,3 @@
        handler=".events.onCommentCreated"
     />
 </configure>
-
